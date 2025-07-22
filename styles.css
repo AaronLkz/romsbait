@@ -14,7 +14,7 @@ body {
   height: 100vh;
   min-height: 100vh;
   display: flex;
-  flex-direction: row; /* Cambia a row */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Orbitron', Arial, sans-serif;
@@ -107,7 +107,7 @@ body {
     align-items: center;
   }
   .container {
-    margin: 0; /* Elimina el margin-top */
+    margin: 8vh 0 0 0;
     min-height: 60vh;
     max-width: 95vw;
     padding-left: 5vw;
